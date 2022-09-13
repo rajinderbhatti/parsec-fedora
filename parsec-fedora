@@ -15,7 +15,7 @@ else
   sudo dnf -y install alien rpmrebuild
 fi
 
-wget https://s3.amazonaws.com/parsec-build/package/parsec-linux.deb
+wget https://builds.parsecgaming.com/package/parsec-linux.deb
 sudo alien -r parsec-linux.deb
 parsec_file=$(ls parsec*.rpm)
 
